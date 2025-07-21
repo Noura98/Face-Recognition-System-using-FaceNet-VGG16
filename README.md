@@ -1,5 +1,5 @@
-# Face-Recognition-System-using-FaceNet-SVM
-This project is a real-time face recognition system built with FaceNet for face embedding and Support Vector Machine (SVM) for classification. It includes a Streamlit app for easy testing and interaction.
+# Face-Recognition-System-using-FaceNet-KNN
+This project is a real-time face recognition system built with FaceNet for face embedding and Support Vector Machine for classification. It includes a Streamlit app for easy testing and interaction.
 ------------------------
 
 🚀 How It Works
@@ -29,7 +29,7 @@ Collect 40 images per person:
 
 Face Extraction: Use HAAR cascade or MTCNN
 
-Train SVM with the FaceNet embeddings
+Train KNN ith the FaceNet embeddings
 
 ---------------------
 
