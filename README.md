@@ -1,1 +1,1 @@
-# Face-Recognition-System-using-FaceNet-VGG16
+# Face-Recognition-System-using-FaceNet-KNN
