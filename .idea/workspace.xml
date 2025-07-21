@@ -5,12 +5,211 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2651223-25f0-4f19-8147-289ba9c29d3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Face_Recognition_System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/TomCruise/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/TomCruise/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/angelinajolie/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/angelinajolie/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/cristianoronaldo/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/cristianoronaldo/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/danielradcliffe/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/danielradcliffe/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/test/ronaldinho/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/test/ronaldinho/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/TomCruise/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/TomCruise/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/angelinajolie/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/angelinajolie/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/cristianoronaldo/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/cristianoronaldo/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/danielradcliffe/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/danielradcliffe/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/train/ronaldinho/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dataset/train/ronaldinho/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_dataset.npz" beforeDir="false" afterPath="$PROJECT_DIR$/face_dataset.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_embeddings.npz" beforeDir="false" afterPath="$PROJECT_DIR$/face_embeddings.npz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_gathering.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,27 +234,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.photo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Modeling.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.data_gathering.executor": "Run",
+    "Python.generate_embeddings.executor": "Run",
+    "Python.photo.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
         <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
@@ -70,7 +272,8 @@
       <workItem from="1751544506201" duration="9565000" />
       <workItem from="1751890198513" duration="9507000" />
       <workItem from="1751958369520" duration="1473000" />
-      <workItem from="1752150734976" duration="3096000" />
+      <workItem from="1752150734976" duration="9380000" />
+      <workItem from="1752755399684" duration="39000" />
     </task>
     <servers />
   </component>
@@ -79,6 +282,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Face_Recognition_System$photo.coverage" NAME="photo Coverage Results" MODIFIED="1751552598927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Face_Recognition_System$test.coverage" NAME="test Coverage Results" MODIFIED="1752153703429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Face_Recognition_System$generate_embeddings.coverage" NAME="generate_embeddings Coverage Results" MODIFIED="1752159163791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Face_Recognition_System$test.coverage" NAME="test Coverage Results" MODIFIED="1752154706028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
