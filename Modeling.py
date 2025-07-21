@@ -5,6 +5,9 @@ from sklearn.metrics import classification_report, confusion_matrix
 import joblib
 from collections import Counter
 from scipy.spatial.distance import cosine
+from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # 1. Load embeddings and labels
 data = np.load('faces-embeddings.npz')
@@ -41,7 +44,17 @@ y_pred_knn = knn.predict(testX_norm)
 
 # 7. Evaluation
 print(classification_report(testy_enc, y_pred_knn, target_names=label_encoder.classes_))
+# 7b. Confusion matrix plot
+cm = confusion_matrix(testy_enc, y_pred_knn)
 
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+            xticklabels=label_encoder.classes_,
+            yticklabels=label_encoder.classes_)
+plt.xlabel('Predicted Label')
+plt.ylabel('True Label')
+plt.title('Confusion Matrix')
+plt.show()
 # 8. Save models
 joblib.dump(knn, 'knn_classifier.joblib')
 joblib.dump(label_encoder, 'label_encoder.joblib')  # You can reuse the same
