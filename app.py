@@ -16,7 +16,7 @@ def load_facenet_model():
 @st.cache_resource
 def load_models():
     embedder = FaceNet()  # FaceNet embedding model
-    classifier = joblib.load("svm_classifier.joblib")  # Your SVM model
+    classifier = joblib.load("knn_classifier.joblib")  # Your SVM model
     label_encoder = joblib.load("label_encoder.joblib")  # Your label encoder
     return embedder, classifier, label_encoder
 
