@@ -16,8 +16,8 @@ def load_facenet_model():
 @st.cache_resource
 def load_models():
     embedder = FaceNet()  # FaceNet embedding model
-    classifier = joblib.load("knn_classifier.joblib")  # Your SVM model
-    label_encoder = joblib.load("label_encoder.joblib")  # Your label encoder
+    classifier = joblib.load("knn_classifier.joblib")  
+    label_encoder = joblib.load("label_encoder.joblib")  
     return embedder, classifier, label_encoder
 
 
@@ -60,7 +60,7 @@ def extract_aligned_face(image_pil, required_size=(160, 160)):
 
 # ----- Streamlit UI -----
 st.title("🔎 Face Recognition App")
-st.write("Upload a photo to predict the person's identity using FaceNet + SVM Classifier")
+st.write("Upload a photo to predict the person's identity using FaceNet + KNN Classifier")
 
 uploaded_file = st.file_uploader("📁 Upload a photo", type=["jpg", "jpeg", "png"])
 
